@@ -1,0 +1,16 @@
+@import "./colors.scss";
+.container {
+  .add-more-students-form {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 16px;
+    button {
+      align-self: flex-start;
+    }
+    a {
+      font-size: 14px;
+      color: $primary;
+    }
+  }
+}

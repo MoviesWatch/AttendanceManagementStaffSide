@@ -1,0 +1,9 @@
+@import "./colors.scss";
+.navbar {
+  padding: 16px;
+  background-color: $secondary;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: $dark_grey;
+}

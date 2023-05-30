@@ -1,0 +1,18 @@
+@import "./colors.scss";
+.attendance-container {
+  form {
+    padding: 16px;
+    display: flex;
+    gap: 24px;
+  }
+  .table-container {
+    padding: 16px;
+  }
+}
+.percentage {
+  span {
+    color: $primary;
+    padding-bottom: 2px;
+    border-bottom: 2px solid $primary;
+  }
+}

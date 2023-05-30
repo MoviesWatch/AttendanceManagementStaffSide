@@ -1,0 +1,35 @@
+@import "./colors.scss";
+.container {
+  form.mark-attendance {
+    .input-container {
+      display: flex;
+      align-items: center;
+    }
+    .period-container {
+      display: flex;
+      align-items: center;
+      max-width: 300px;
+      gap: 12px;
+      div {
+        display: flex;
+        gap: 16px;
+      }
+    }
+  }
+}
+.absentees {
+  p {
+    margin-bottom: 12px;
+    color: $primary;
+    padding-bottom: 2px;
+    border-bottom: 2px solid $primary;
+    width: fit-content;
+  }
+  ul {
+    margin-bottom: 12px;
+    li {
+      list-style-type: none;
+      margin-bottom: 8px;
+    }
+  }
+}

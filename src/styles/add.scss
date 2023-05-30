@@ -1,0 +1,44 @@
+@import "./colors.scss";
+.add-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 32px;
+  form {
+    width: max-content;
+    display: grid;
+    grid-template-columns: auto auto;
+    .input-container {
+      width: 100%;
+      label {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 12px;
+      }
+    }
+    button {
+      place-self: center;
+    }
+    .inputs-conatiner {
+      .inputs {
+        height: 200px;
+        overflow-y: auto;
+      }
+    }
+  }
+}
+.error.full {
+  text-align: center;
+}
+.add-classes-and-subjects-container {
+  form {
+    display: flex;
+    flex-direction: column;
+    .inputs {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+  }
+}

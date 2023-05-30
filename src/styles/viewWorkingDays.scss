@@ -1,0 +1,22 @@
+.view-working-days-container {
+  .filters-container {
+    margin: 24px 0px;
+  }
+  .download-report {
+    margin-bottom: 16px;
+  }
+  .days-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    max-width: 100%;
+    row-gap: 24px;
+    column-gap: 48px;
+    .day {
+      display: flex;
+      justify-content: space-between;
+      span {
+        margin-right: 12px;
+      }
+    }
+  }
+}

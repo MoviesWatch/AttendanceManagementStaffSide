@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/faculty/static/css/main.a05012bf.css",
+    "main.js": "/faculty/static/js/main.84dd211d.js",
+    "static/js/787.ec704a7a.chunk.js": "/faculty/static/js/787.ec704a7a.chunk.js",
+    "static/media/accet_logo.svg": "/faculty/static/media/accet_logo.1c6a1c55fd92570de74b437de1e63961.svg",
+    "index.html": "/faculty/index.html",
+    "main.a05012bf.css.map": "/faculty/static/css/main.a05012bf.css.map",
+    "main.84dd211d.js.map": "/faculty/static/js/main.84dd211d.js.map",
+    "787.ec704a7a.chunk.js.map": "/faculty/static/js/787.ec704a7a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a05012bf.css",
+    "static/js/main.84dd211d.js"
+  ]
+}

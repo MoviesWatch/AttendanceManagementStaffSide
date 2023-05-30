@@ -1,0 +1,32 @@
+@import "./colors.scss";
+button {
+  border: none;
+  padding: 8px 16px;
+  background-color: $primary;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 4px;
+  cursor: pointer;
+  &:hover {
+    filter: brightness(1.1);
+  }
+  &:active {
+    filter: brightness(0.9);
+  }
+  &.inverted {
+    background-color: #fff;
+    color: $primary;
+  }
+  &.small {
+    padding: 4px 8px;
+  }
+  &:disabled,
+  &.inactive {
+    background-color: $light_grey;
+  }
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+}

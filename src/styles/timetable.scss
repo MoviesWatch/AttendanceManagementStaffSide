@@ -1,0 +1,15 @@
+.container {
+  form {
+    .subjects-container {
+      max-height: 200px;
+      overflow-y: scroll;
+      p {
+        margin-bottom: 12px;
+      }
+    }
+    button {
+      align-self: center;
+      justify-self: start;
+    }
+  }
+}

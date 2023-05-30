@@ -1,0 +1,19 @@
+.working-days-container {
+  display: grid;
+  padding: 0px 44px;
+  grid-template-columns: repeat(4, auto);
+  .day-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 250px;
+    gap: 12px;
+    margin-bottom: 12px;
+    select {
+      width: 60px;
+    }
+  }
+}
+.submit-working-days {
+  margin: auto;
+}

@@ -1,0 +1,120 @@
+@import "./colors.scss";
+.container {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  form {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    align-items: center;
+    gap: 32px;
+    flex-wrap: wrap;
+    label {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+    button {
+      width: auto;
+      place-self: start;
+    }
+  }
+  button {
+    width: fit-content;
+  }
+}
+.links {
+  li {
+    display: inline-block;
+    &:not(:last-child) {
+      margin-right: 16px;
+    }
+    a {
+      text-decoration: none;
+      color: $mid-grey;
+      padding-bottom: 4px;
+      border-bottom: 2px solid transparent;
+      font-weight: 500;
+      &:hover,
+      &.active {
+        color: $primary;
+        border-color: $primary;
+      }
+    }
+  }
+}
+.error {
+  display: none;
+  margin-top: 4px;
+  color: $error;
+  font-size: 14px;
+  font-weight: 500;
+}
+.heading {
+  width: fit-content;
+  margin-bottom: 16px;
+  color: $primary;
+  padding-bottom: 2px;
+  border-bottom: 2px solid $primary;
+}
+.server-error {
+  @extend .error;
+  display: block;
+  margin: 0 auto;
+  margin-top: 24px;
+}
+.server-result {
+  margin: 0 auto;
+  margin-top: 32px;
+  color: green;
+}
+.fill-od-container,
+.add-students-and-subjects-container {
+  padding: 44px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  & > div {
+    .search {
+      margin-bottom: 24px;
+    }
+    max-height: 500px;
+    padding: 32px;
+    overflow-y: scroll;
+    p {
+      margin-bottom: 24px;
+    }
+  }
+  label {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .periods-container {
+    display: grid;
+    height: fit-content;
+    grid-template-columns: repeat(3, auto);
+    column-gap: 44px;
+    p {
+      grid-column: 1/4;
+    }
+  }
+  button {
+    place-self: center;
+    grid-column: 1/4;
+  }
+}
+.add-students-and-subjects-container {
+  grid-template-columns: repeat(2, auto);
+}
+.react-alert-confirm {
+  border-radius: 4px;
+  .alert-confirm-title {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .alert-confirm-button {
+    font-size: 14px;
+  }
+}
